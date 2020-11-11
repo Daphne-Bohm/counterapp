@@ -32,7 +32,7 @@ met setCount kan ik deze waarde veranderen
 
 *voorbeeld uit code: App.js: <Counter numClicked={count} inc={increment}/>
 *toelichting: {count} komt af van de state (dat 0 is). {increment} komt af van de function increment. De informatie hiervan geef ik door aan Counter.js. Zie hierboven state.
-*Counter.js file: Counter({numClicked, inc}){} en roep ik op onClick={inc} en <h2>{numClicked}</h2>
+*Counter.js file: Counter({numClicked, inc}){} en roep ik op onClick={inc} en bij <h2> {numClicked}
 
 
 
